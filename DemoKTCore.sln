@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoKTCore", "DemoKTCore\DemoKTCore.csproj", "{0FE3BB7A-C12E-42B0-B8A6-C66F7F344AA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoKTCore", "DemoKTCore\DemoKTCore.csproj", "{0FE3BB7A-C12E-42B0-B8A6-C66F7F344AA1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoKTCore.Test", "DemoKTCore.Test\DemoKTCore.Test.csproj", "{A53FE025-1AFC-4C1A-8FCF-150B3D756A1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoKTCore.Test", "DemoKTCore.Test\DemoKTCore.Test.csproj", "{A53FE025-1AFC-4C1A-8FCF-150B3D756A1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoKTCore.Automation", "DemoKTCore.Automation\DemoKTCore.Automation.csproj", "{7F264454-17BE-4BE8-990B-93BD78491960}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{A53FE025-1AFC-4C1A-8FCF-150B3D756A1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A53FE025-1AFC-4C1A-8FCF-150B3D756A1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A53FE025-1AFC-4C1A-8FCF-150B3D756A1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F264454-17BE-4BE8-990B-93BD78491960}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F264454-17BE-4BE8-990B-93BD78491960}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F264454-17BE-4BE8-990B-93BD78491960}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F264454-17BE-4BE8-990B-93BD78491960}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

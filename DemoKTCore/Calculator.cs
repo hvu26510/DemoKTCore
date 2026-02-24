@@ -11,6 +11,12 @@ namespace DemoKTCore
 
         // nhập vào số nguyên n, tính tổng từ 1-n
         // 
+
+        public bool CheckChanLe(int i)
+        {
+            if(i%2 == 0) return false;
+            return true;
+        }
         public long Sum1ToN(int n)
         {
             if(n<1) return 0;

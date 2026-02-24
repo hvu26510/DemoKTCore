@@ -19,8 +19,18 @@ namespace DemoKTCore.Test
             cal = new Calculator();
         }
 
-        //Phan vung: n<=0, 0<n<10, 10<=n
+        //Test chan le, so le nho hon 0, phan vung tuong duong
+        [Test]
+        public void SoleNhohon0()
+        {
+            bool kqtt = cal.CheckChanLe(-1);
+            bool kqmm = true;
 
+            Assert.Equals(kqtt, kqmm);
+        }
+
+
+        //Phan vung: n<=0, 0<n<10, 10<=n
         //Kiem tra phan vung n<=0
         [Test]
         public void NhoHon0()
